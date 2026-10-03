@@ -1,27 +1,27 @@
 # %% [markdown]
-# # LAB 3
-# ### PUBH 4201 Lab 3
+# LAB 3
+ ### PUBH 4201 Lab 3
 
-# %% [markdown]
-# ##### Today we are using regex to parse through messy data. We are going to take our mess_data_csv and turn it into a tibble with standardization
+ %% [markdown]
+ ##### Today we are using regex to parse through messy data. We are going to take our mess_data_csv and turn it into a tibble with standardization
 
-# %%
+ %%
 import pandas as pd
 import numpy as np
 clean_our_data = pd.read_csv('messy_samples.csv')
 
-# %% [markdown]
-# ##### Our data isn't exactly the clearest. Let's use some regex coding to fix it
+ %% [markdown]
+ ##### Our data isn't exactly the clearest. Let's use some regex coding to fix it
 
-# %%
-# We've read our data into a data frame. Lets check our sex variable
+ %%
+ We've read our data into a data frame. Lets check our sex variable
 clean_our_data['sex'].value_counts()
 
 
-# %% [markdown]
-# #### Thats pretty confusing! We want to simplify the sexes into male, female, and other!
+ %% [markdown]
+ #### Thats pretty confusing! We want to simplify the sexes into male, female, and other!
 
-# %%
+ %%
 # Match the whole value so "female" cannot accidentally match "male".
 sex = clean_our_data['sex'].astype('string').str.strip()
 clean_our_data['sex'] = np.select(
