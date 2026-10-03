@@ -44,7 +44,7 @@ clean_our_data['sex'].value_counts()
 # Lets check out the dob variable in our dataset
 clean_our_data['dob'].value_counts()
 
-# %%
+ %%
 # Standardize DOB values as MM/DD/YYYY using regex patterns
 import re
 
@@ -89,18 +89,18 @@ clean_our_data['dob'] = clean_our_data['dob'].apply(normalize_dob)
 clean_our_data.to_csv('clean_our_data.csv', index=False)
 clean_our_data['dob'].value_counts()
 
-# %% [markdown]
-# #### Beautiful! it's all coming together now. Let's check the glucose variables now
+ %% [markdown]
+ #### Beautiful! it's all coming together now. Let's check the glucose variables now
 
-# %%
+ %%
 # Combine the glucose_value and glucose_unit columns into a single column named 'glucose'
 clean_our_data['glucose'] = clean_our_data['glucose_value'].astype(str) + ' ' + clean_our_data['glucose_unit']
 clean_our_data['glucose'].value_counts()
 
-# %% [markdown]
-# #### Something is off? Some of these units are not the same as the other. To fix this, let's do some unit conversion
+ %% [markdown]
+ #### Something is off? Some of these units are not the same as the other. To fix this, let's do some unit conversion
 
-# %%
+ %%
 # Convert mmol/L values in the combined glucose column to mg/dL using regex.
 import re
 
