@@ -1,0 +1,61 @@
+sample_id,patient_name,dob,sex,enrollment_site,notes,glucose
+S0001,A. Nguyen,07/09/1962,Female,siteB,,145.9 mg/dL
+S0002,T. Patel,12/16/1974,Male,Site  C,,146.1 MG/DL
+s-0003,R. Martinez,11/24/1953,Female,Site B,,84.2 MG/DL
+S0004,A. Patel,02/27/1957,Female,Site B,,120.0 MG/DL
+S0005,B. Martinez,12/02/1997,Male,Site B,,138.3 mg/dl
+s-0006,R. Kim,12/05/1968,Female,Site  C,,2878.2 mg/dL
+S0007,T. Martinez,09/04/1969,Unknown,Site A,,206.0 mg/dL
+S0008,K. Davis,08/20/1999,Female,Site  C,,229.3 MG/DL
+s-0009,S. Davis,07/19/1995,Male,Site C ,,185.0 mg/dl
+S0010,A. Martinez,10/01/1951,Female,Site C ,re-draw requested,215.2 mg/dl
+S0011,B. Davis,07/09/1961,Male,SITE-A,,2970.0 mg/dL
+S0012,T. Johnson,06/07/1996,Unknown,site_a,re-draw requested,110.4 MG/DL
+S0013,A. Patel,10/26/1952,Female,siteB,,2030.4 mg/dL
+S0014,K. Kim,09/12/1958,Female,Site B,,144.0 mg/dL
+S0015,B. Patel,02/11/1998,Male,Site B,,1854.0 mg/dL
+S0016,A. Davis,05/15/1958,Unknown,Site B,,157.4 mg/dl
+S0017,K. Nguyen,07/16/2015,Unknown,site_a,,123.4 mg/dL
+S0018,J. Smith,03/10/1957,Female,siteB,,82.2 mg/dl
+s-0019,B. Kim,09/16/2000,Male,site_a,,190.6 MG/DL
+S0020,B. Smith,07/05/2000,Female,siteB,,108.4 MG/DL
+S0021,K. Davis,11/16/2004,Male,Site  C,,88.6 mg/dl
+S0022,M. Johnson,11/25/2006,Unknown,SITE-A,,233.0 mg/dL
+S0023,S. Lee,06/30/1999,Male,Site A,,83.5 mg/dl
+S0024,S. Johnson,07/31/1953,Female,Site  C,,114.9 mg/dL
+S0025,M. Lee,11/19/1965,Male,site_a,,202.6 MG/DL
+S0026,J. Garcia,06/22/1953,Female,site_a,,3906.0 mg/dL
+S0027,T. Johnson,03/24/1956,Female,Site  C,,161.7 MG/DL
+S0028,S. Smith,12/26/1988,Female,Site B,,179.1 mg/dL
+s-0029,M. Johnson,08/04/2009,Female,Site  C,,222.6 MG/DL
+S0030,M. Kim,01/06/1984,Male,Site B,,168.6 mg/dL
+S0031,K. Brown,11/11/1995,Male,Site  C,,85.3 MG/DL
+S0032,J. SMITH,08/17/1992,Unknown,Site B,,229.5 mg/dl
+S0033,B. Kim,06/07/2012,Male,siteB,,114.9 mg/dL
+S0034,K. Martinez,04/15/1995,Unknown,site_a,,3670.2 mg/dL
+S0035,K. Patel,12/13/1956,Female,SITE-A,,130.5 mg/dL
+s-0036,T. Johnson,04/21/1987,Unknown,Site C ,,145.6 mg/dL
+S0037,T. Kim,11/28/2015,Unknown,site_a,re-draw requested,2143.8 mg/dL
+S0038,K. Lee,12/02/1997,Unknown,siteB,,171.6 mg/dL
+S0039,R. Patel,04/12/1980,Male,Site C ,,4341.6 mg/dL
+S0040,R. Patel,06/21/2008,Male,site_a,,105.9 mg/dL
+S0041,K. Nguyen,01/20/1965,Male,SITE-A,,89.5 mg/dL
+S0042,M. Garcia,04/10/2006,Female,Site  C,,209.0* mg/dL
+S0043,B. Davis,02/19/1951,Unknown,Site A,,148.0 MG/DL
+S0044,S. Martinez,04/13/1998,Unknown,Site B,,218.6 MG/DL
+S0045,K. Martinez,01/01/1984,Male,Site B,,223.2 mg/dl
+S0046,S. DAVIS,02/21/1967,Female,Site  C,,143.2 mg/dl
+s-0047,M. Kim,06/21/1977,Unknown,siteB,,2980.8 mg/dL
+S0048,M. Garcia,04/23/1978,Male,site_a,,1960.2 mg/dL
+S0049,M. Nguyen,02/05/1966,Male,Site  C,re-draw requested,166.1 MG/DL
+S0050,K. Garcia,07/02/2001,Unknown,Site B,,149.3 mg/dl
+s-0051,K. Garcia,08/02/2011,Male,site_a,,216.0 MG/DL
+S0052,M. Davis,09/20/1989,Unknown,SITE-A,,172.4 mg/dL
+S0053,B. Lee,07/10/1999,Male,Site A,,2583.0 mg/dL
+S0054,M. Nguyen,01/28/2006,Unknown,Site A,,168.0 mg/dl
+S0055,S. Brown,10/14/2011,Unknown,SITE-A,,2881.8 mg/dL
+S0056,A. Garcia,06/30/2010,Male,siteB,,77.2 mg/dl
+S0057,K. Garcia,08/20/1986,Female,Site  C,,88.8 mg/dl
+S0058,A. Brown,08/23/1972,Female,Site C ,,142.8 mg/dL
+S0059,K. Brown,04/06/1968,Male,SITE-A,,2680.2 mg/dL
+S0060,A. Davis,02/27/1970,Unknown,Site A,,186.6 mg/dl
