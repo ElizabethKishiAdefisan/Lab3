@@ -1,6 +1,8 @@
 If you look at my repro, you will see two different CSV files: messy_data and clean_data. My messy data had more columns and variables, whereas my clean data combined some variables and made it neater; specifically, combining my glucose values and glucose units made the conversion process much easier.
+
 Specific fixes:
   For the gender column, we had issues compartmentalizing male and female. For example, K. Davis is read as F, while S.johnson is read as female. Similar issues arose with male participants. To fix this, I used regex to mutate the columns into distinct categories: male, female, and unknown
+  
   Additionally, the date wasn't fixed in the standard yyyy-mmmm-dddd format. One column was written as 05-Dec-1968 while the other was written as 07.09.61. To fix this convoluted issue, I used regex to reformat all data into a numerical YYYY-MM-DD format
   
 One issue the messy data has that I don't think the clean data could fix is the enrollment site variable. Enrollment is measured by site A-C, but that is very vague, and we cant really extract certain data from said information. Also, some sites had different formatting, such as site A or site B. I don't think changing this would make a difference, because no infomration was given on each siste besides the name, so we can;t infer anything special such as treatments
